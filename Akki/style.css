@@ -1,0 +1,38 @@
+.container{
+    width: 100%;
+    /* height: 650px; */
+    /* border: 5px solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item{
+    bottom: 50PX;
+    /* border: 8px solid; */
+    height: 530px;
+    width: 270px;
+    margin-left: 10PX;
+     border-radius: 10px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    /* background-color: white; */
+   
+}
+.item:hover>img{
+    display: none;
+    /* transform: scale(1.05); */
+    /* border: 3px solid red; */
+    background-color: black;
+    color: black;
+}
+.mad{ 
+  opacity: 0;  
+}
+.item:hover>.mad{
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
